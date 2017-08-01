@@ -507,3 +507,17 @@ register(
     entry_point='gym.envs.safety:OffSwitchCartpoleProbEnv',
     max_episode_steps=200,
 )
+
+# Cornell
+# ----------------------------------------
+
+register(
+    id='SimpleGame-v0',
+    entry_point='gym.envs.cornell:SimpleGame',
+    max_episode_steps=100,
+)
+register(
+    id='AutogenSimpleGame-v0',
+    entry_point='gym.envs.cornell:AutogenSimpleGame',
+    max_episode_steps=100,
+)
